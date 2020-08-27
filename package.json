@@ -4,13 +4,16 @@
   "description": "Aplicacion de prueba en Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "author": "Danny Lopez",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "firebase": "^7.19.0",
+    "firebase-admin": "^9.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
